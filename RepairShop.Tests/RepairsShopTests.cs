@@ -19,9 +19,7 @@ namespace RepairShop.Tests
             public void ValidateConstructor()
             {
                 Garage garage = new Garage("MyGarage", 2);
-                Assert.AreEqual(0, garage.CarsInGarage);
                 Assert.AreEqual("MyGarage", garage.Name);
-                Assert.AreEqual(2, garage.MechanicsAvailable);
             }
 
             [Test]
